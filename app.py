@@ -8,7 +8,7 @@ import mimetypes
 app = Flask(__name__)
 CORS(app)  # Allow all origins (InfinityFree frontend se request aayegi)
 
-OPENROUTER_API_KEY = os.environ.get("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", "")
+OPENROUTER_API_KEY ="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"
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "anthropic/claude-sonnet-4-5"  # OpenRouter pe Sonnet model
 
